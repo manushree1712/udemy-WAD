@@ -1,0 +1,50 @@
+body{
+    background-color:burlywood;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 10;
+    height: 100vh;  /* vh - viewport height, takes the height of the device */
+    width: 200vh;
+    /* flexbox is uaed to adjust everything to their original place */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{   /* used this at class=card in forms tag,  
+    .[wtv the class = thimgy or the container is] */
+
+    background-color:cadetblue;
+    border-radius: 3%;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+
+h2{
+    color:blanchedalmond;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input{
+    margin-bottom: 7px;
+    padding: 3px;
+    align-items: center;
+}
+
+button{
+    background-color: beige;
+    box-sizing: 30px;
+}
+
+button:hover{
+    background-color: burlywood;
+}
