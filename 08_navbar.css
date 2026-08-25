@@ -1,0 +1,44 @@
+.nav2{
+    background-color: #fb8fc5;
+    width: 200px;
+    padding: 20px;
+}
+
+.nav2 ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+}
+
+.nav2 li{
+    margin-bottom: 10px;
+}
+
+.nav2 a{
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    width: 100px;
+}
+
+
+.nav2 a:hover{
+    background: #dd458f;
+}
+
+
+.nav2 .nav-button{
+    color: rgb(218, 207, 212);
+    background: #cd3081;
+    border: 0;
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+
+.nav2 .nav-button:hover{
+    background: #b21664;;
+}
